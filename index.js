@@ -16,3 +16,6 @@ function getTotalFlavors(flavorsArray) {
   return flavorCounts;
 }
 
+const counts = getTotalFlavors(flavorsArray);
+
+console.log(counts);
