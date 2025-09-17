@@ -5,7 +5,7 @@ function getTotalFlavors(flavorsArray) {
   const flavorCounts = {};
 
   for (let i = 0; i < flavorsArray.length; i++) {
-    const flavor = flavorsArray[i];
+    const flavor = flavorsArray[i].trim();
 
     if (flavorCounts[flavor]) {
       flavorCounts[flavor]++;
